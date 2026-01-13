@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand fw-bold fst-italic" style="color: bisque;" href="#">KopiKene.</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto gap-4 fw-med fst-italic">
-        <li class="nav-item">
-          <a class="nav-link active" style="color: bisque ;" aria-current="page" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: bisque ;" href="#profile">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="color: bisque ;" href="#menu">Menu</a>
-        </li>
-       <li class="nav-item">
-          <a class="nav-link" style="color: bisque ;" href="#contact">Contact Us</a>
-        </li>
-      </ul>
-       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn" style="color: bisque;" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav> -->
   <%- include('partials/header') %>
+  <!-- Home Section start -->
   <section id="home" class="hero w-100 p-5 d-flex align-items-center">
     <div class="container">
       <div class="row align-items-center">
@@ -62,7 +35,9 @@
       </div>
     </div>
   </section>
+  <!-- Home Section end -->
 
+  <!-- About section start -->
   <section
     id="profile"
     class="about pt-4 pt-md-5 pb-5 min-vh-100"
@@ -101,7 +76,9 @@
       </div>
     </div>
   </section>
+  <!-- About section end -->
 
+  <!-- Menu section start -->
   <section id="menu" class="py-5 min-vh-100" style="background-color: #fff">
     <div class="container">
       <h2 class="text-center mb-5 fw-bold" style="font-family: 'DM Serif Text'">
@@ -280,6 +257,7 @@
       </div>
     </div>
   </section>
+  <!-- Menu section end -->
 
   <%- include('partials/footer') %>
 </html>
